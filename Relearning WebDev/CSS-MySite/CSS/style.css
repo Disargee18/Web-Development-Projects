@@ -1,0 +1,51 @@
+body
+{
+    margin: 0;
+    background-color: cadetblue;
+}
+.navbar
+{
+    background-color: gray;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    word-spacing:5px;
+    padding: 10px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:not(.title)
+{
+    padding-right: 100px;
+    font-size: 30px;
+}
+p   
+{
+    display: block;
+}
+.title  
+{
+    margin: 50;
+    margin-left: 50px;
+    position: relative;
+    display: inline-block; 
+    font-size: 50px;
+}
+.parent-div
+{
+    display: flex;
+    justify-content: center;
+    height: 8.33%;
+    width: 100%;
+}
+.option-div
+{
+    background-color: blueviolet;
+    width: auto;
+    position: relative;
+    bottom: 43px;
+    left: 500px;
+}

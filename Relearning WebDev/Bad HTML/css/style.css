@@ -1,0 +1,57 @@
+body
+{
+    opacity: inherit;
+    border: 0px;
+    text-align: center;
+}
+.sect1
+{
+    background-color:#006d77;
+    border: 0px;
+}
+.sect2
+{
+    background-color: #83c5be;
+    padding-top: 10px;
+    margin: auto;
+    display: flexbox;
+    align-items: center;
+}
+.sect3
+{
+    background-color: #edf6f9;
+    padding-top: 10px;
+}
+.sect4
+{
+    background-color: #ffddd2;
+    padding-top: 10px;
+}
+.sect5
+{
+    background-color: #e29578;
+    padding-top: 10px;
+}
+
+hr
+{
+    border: 1px;
+    border-style: dashed;
+    padding: 0px;
+    margin: 0;
+}
+h3
+{
+    margin: 0;
+}
+ul
+{
+    margin-bottom: 0;
+    position: relative;
+}
+input[type=submit]
+{
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+}
